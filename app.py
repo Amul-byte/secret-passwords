@@ -9,7 +9,6 @@ while True:
     elif choice == 0:
         word=input("What you want to decode: ")
         if len(word) <= 3:
-            # [start:stop:step]
             print(f"Your decoded word for {word} is {word[::-1]}")
         else:
             word1 = word[len(word)-4]+ word[3:len(word)-4]
